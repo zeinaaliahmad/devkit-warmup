@@ -1,0 +1,26 @@
+{
+  "name": "devkit-warmup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --import tsx --test test/*.test.ts",
+    "katas": "node --watch src/katas.js",
+    "async": "node src/async.js",
+    "ts": "tsx watch src/katas.ts",
+    "typecheck": "tsc --noEmit",
+    "serve": "npx serve public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
