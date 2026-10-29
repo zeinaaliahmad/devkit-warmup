@@ -1,14 +1,15 @@
+
 {
   "name": "devkit-warmup",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --import tsx --test test/*.test.ts",
-    "katas": "node --watch src/katas.js",
+    "katas": "node src/katas.js",
     "async": "node src/async.js",
-    "ts": "tsx watch src/katas.ts",
+    "ts": "tsx src/katas.ts",
     "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts",
     "serve": "npx serve public"
   },
   "keywords": [],
